@@ -1,0 +1,58 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNxsbAM2MtYQT+mfrT3G21G",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Leejimin2008/oss-1924293/blob/main/Untitled0.ipynb1\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "kyCDfOnDTD4x"
+      },
+      "outputs": [],
+      "source": [
+        "%%writefile \n",
+        "# calculator.py\n",
+        "def add(x, y):\n",
+        "  return x+y\n",
+        "def subtract (x, y):\n",
+        "  return x-y\n",
+        "\n",
+        "writing mycalc/calculator.py\n",
+        "\n",
+        "import setuptools\n",
+        "\n",
+        "setuptools.setup(\n",
+        "  name = 'leejimin',\n",
+        "  version= '0.0.1',\n",
+        "  description= 'my calculator',\n",
+        "  author= 'leejimin',\n",
+        "  url= 'https://github.com/Leejimin2008/oss-1924293'\n",
+        ")\n"
+      ]
+    }
+  ]
+}
